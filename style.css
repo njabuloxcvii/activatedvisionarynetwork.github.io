@@ -7,6 +7,7 @@ body
 /*----------header section-------------*/
 #header{
 	height: 100vh;
+	padding-bottom: 150px;
 	background: linear-gradient(rgba(0,0,0.6),rgba(0,0,0,0.6)),url(aaron-burden-pCfJKUB5bes-unsplash.jpg);
     background-position: center;
 	background-size: cover;
@@ -69,8 +70,8 @@ body
 	padding-bottom: 150px;
 }
 .profile-img{
-	height: 300px;
-	width: 500px;
+	height: 200px;
+	width: 400px;
 }
 .nav-bar
 {
@@ -113,7 +114,7 @@ body
 .services
 {
 	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 	background: linear-gradient(rgba(0,0,0.6),rgba(0,0,0,0.6)),url(scott-webb-GQD3Av_9A88-unsplash.jpg);
     background-position: center;
 	background-size: cover;
@@ -135,7 +136,7 @@ body
 	padding: 10px;
 	margin-top: 20px;
 	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50px;
+	border-bottom-left-radius: 40px;
 
 }
 .services-box .fa
@@ -175,7 +176,7 @@ body
 
 .contact 
 {
-	padding-top:100px;
+	padding-top:110px;
 	background: linear-gradient(rgba(0,0,0.8),rgba(0,0,0,0.8)),url(zane-lee-HuyoZSaBrzw-unsplash.jpg);
     background-position: center;
 	background-size: cover;
