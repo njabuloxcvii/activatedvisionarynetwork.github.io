@@ -69,9 +69,10 @@ body
 	padding-top: 10%;
 	padding-bottom: 150px;
 }
-.profile-img img{
-	height: 300px;
-	width: 450px;
+.profile-img img
+{
+	height: 200px;
+	width: 350px;
 }
 .nav-bar
 {
@@ -219,9 +220,3 @@ body
 {
 	color: red;
 }
-
-
-
-
-
-
