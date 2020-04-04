@@ -69,9 +69,9 @@ body
 	padding-top: 10%;
 	padding-bottom: 150px;
 }
-.profile-img{
-	height: 200px;
-	width: 350px;
+.profile-img img{
+	height: 300px;
+	width: 450px;
 }
 .nav-bar
 {
