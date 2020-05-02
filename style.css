@@ -1,54 +1,56 @@
-body
+*
 {
 	margin: 0;
 	padding: 0;
-	font-size: sans-serif;
+	
 }
-/*----------header section-------------*/
-#header{
-	height: 100vh;
-	padding-bottom: 150px;
-	background: linear-gradient(rgba(0,0,0.6),rgba(0,0,0,0.6)),url(aaron-burden-pCfJKUB5bes-unsplash.jpg);
-    background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-.user-box
+
+/*---------------cover page  ---------------*/
+
+#slider
 {
-	top:50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	position: absolute;
+  	width: 100%;
+    
+    
 }
-.user-box img
+.carousel-item img
 {
-	border-radius: 50%;
-	width: 250px;
-	border: 2px solid #6caed5;
+	height: 670px;
+	width : 1400px;
+	opacity:0.5;
 }
-.user-box h1
+.carousel-caption
 {
-	color: #fff;
-	font-weight: bold;
-	margin: 10px;
+	top: 50%;
+	transform : translateY(-50%);
+	bottom: initial !important;
 }
-.user-box p
+
+.carousel-caption h5
 {
-	color: #fff;
+	color: #00008b;
+	font-size : 62px;
 }
+.carousel-caption p
+{
+	color:#800080;
+	font-size: 30px;
+}
+
+
 .scroll-btn
 {
 	bottom: 30px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	border: 2px solid #fff;
+	border: 2px solid #00008B;
 	padding: 10px 10px 20px;
 	border-radius:30px;
 }
 .scroll-bar span
 {
-	border: 2px solid #fff;
+	border: 2px solid #00008B;
 	font-size: 10px;
 	border-radius: 30px;
 	
@@ -62,18 +64,30 @@ body
 	0%{transform: translateY(0);}
 	100%{transform: translateY(10px);}
 }
- 
-/*------------about------------------*/ 
-.about 
+
+
+/*-------------------------About---------------------------------------*/
+
+#about
 {
-	padding-top: 10%;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom : 100px;
+	color:#555;
 }
-.profile-img img
+
+.about-content
 {
-	height: 200px;
-	width: 350px;
+	padding-top : 20px;
 }
+
+.about-image img
+{
+	height : 400px;
+	width:300px;
+	padding-top: 150px;
+	padding-left: -60px;
+}
+
 .nav-bar
 {
 	top: 0;
@@ -109,16 +123,17 @@ body
 	
 }
 
+
 /*---------services---------------*/
 
 
 .services
 {
-	padding-top: 150px;
-	padding-bottom: 200px;
-	background: linear-gradient(rgba(0,0,0.6),rgba(0,0,0,0.6)),url(scott-webb-GQD3Av_9A88-unsplash.jpg);
+	padding-top: 100px;
+	padding-bottom: 210px;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images//background4.jpg);
     background-position: center;
-	background-size: cover;
+	background-size:cover;
 	background-attachment: fixed;
 }
 .services h1
@@ -173,12 +188,12 @@ body
 	color: #fff;
 }
 
-/*-----------contact--------------------*/
 
+/*--------------------------------contact ----------------------------------------*/
 .contact 
 {
-	padding-top:110px;
-	background: linear-gradient(rgba(0,0,0.8),rgba(0,0,0,0.8)),url(zane-lee-HuyoZSaBrzw-unsplash.jpg);
+	padding-top:180px;
+	background: linear-gradient(rgba(0,0,0.8),rgba(0,0,0,0.8)),url(images/background5.jpg);
     background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -187,7 +202,7 @@ body
 .contact .row
 {
 	padding: 30px 0;
-	font-size 22px;
+	font-size 18px;
 }
 
 .contact .col-md-4 .fa
@@ -216,7 +231,4 @@ body
 	color:#fff;
 	padding-top:10px;
 }
-.fa-heart-o
-{
-	color: red;
-}
+
