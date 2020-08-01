@@ -210,18 +210,11 @@
 	padding: 10px;
 	font-size: 30px;
 }
-.contact .btn
+.contact .social-icon
 {
-	padding: 10px 25px 10px 25px;
-	margin: 5px;
-	border-radius: 30px;
-	border: 2px solid #fff;
-	background: transparent;
-	
-}
-.contact .btn .fa
-{
-	margin-right: 10px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
 }
 .footer
 {
